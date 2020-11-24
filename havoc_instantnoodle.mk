@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from instantnoodlep device
-$(call inherit-product, device/oneplus/instantnoodlep/device.mk)
+$(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
 WITH_GAPPS := true
@@ -34,17 +34,17 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_PIXEL_WALLPAPER := true
 
-PRODUCT_NAME := havoc_instantnoodlep
-PRODUCT_DEVICE := instantnoodlep
+PRODUCT_NAME := havoc_instantnoodle
+PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := IN2020
+PRODUCT_MODEL := IN2010
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus8Pro \
-    PRODUCT_NAME=OnePlus8Pro \
-    PRIVATE_BUILD_DESC="OnePlus8Pro-user 10 QKQ1.191222.002 2005301332 release-keys"
+    PRODUCT_DEVICE=OnePlus8 \
+    PRODUCT_NAME=OnePlus8 \
+    PRIVATE_BUILD_DESC="OnePlus8-user 10 QKQ1.191222.002 2005301331 release-keys"
 
 BUILD_FINGERPRINT := "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys"

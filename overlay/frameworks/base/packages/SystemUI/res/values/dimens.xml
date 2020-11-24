@@ -16,16 +16,19 @@
 */
 -->
 <resources>
+    <!-- The padding on the top of the statusbar (usually 0). -->
+    <dimen name="status_bar_padding_top">12px</dimen>
+
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">32dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">24dp</dimen>
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
-    <dimen name="system_icons_keyguard_padding_end">26dp</dimen>
+    <dimen name="system_icons_keyguard_padding_end">2dp</dimen>
 
-    <dimen name="rounded_corner_content_padding">74px</dimen>
+    <dimen name="rounded_corner_content_padding">15px</dimen>
 
     <!-- Custom cutout overlay view sizes -->
     <dimen name="config_customCutoutTopWidth">240.0px</dimen>

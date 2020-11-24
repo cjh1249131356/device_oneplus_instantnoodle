@@ -372,8 +372,8 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 0, 0
-        H 44
-        V 44
+        H 48
+        V 48
         H 0
         L 0, 0
         @dp
@@ -381,12 +381,12 @@
     </string>
 
     <!-- The default peak refresh rate for a given device. -->
-    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer name="config_defaultPeakRefreshRate">90</integer>
 
     <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
-    <integer name="config_defaultRefreshRateInZone">120</integer>
+    <integer name="config_defaultRefreshRateInZone">90</integer>
 
     <!-- Whether device supports variable refresh rate -->
     <bool name="config_hasVariableRefreshRate">true</bool>
-    <integer name="config_defaultRefreshRate">3</integer>
+    <integer name="config_defaultRefreshRate">2</integer>
 </resources>

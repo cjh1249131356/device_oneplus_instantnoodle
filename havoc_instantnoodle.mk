@@ -35,7 +35,7 @@ PRODUCT_NAME := havoc_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := IN2010
+PRODUCT_MODEL := IN2015
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 

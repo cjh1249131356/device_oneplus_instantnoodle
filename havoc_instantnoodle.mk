@@ -31,6 +31,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
+HAVOC_BUILD_TYPE := Official
+
 PRODUCT_NAME := havoc_instantnoodle
 PRODUCT_DEVICE := instantnoodle
 PRODUCT_MANUFACTURER := OnePlus
